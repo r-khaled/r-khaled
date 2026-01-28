@@ -1,5 +1,8 @@
 ## Hi there 👋
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=r-khaled)](https://github.com/anuraghazra/github-readme-stats)
+# GitHub Readme Stats
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=r-khaled&theme=tokyonight&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+# Github Readme Streak Stats
+[![GitHub Streak](https://streak-stats.demolab.com/?user=r-khaled&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 <!--
 **r-khaled/r-khaled** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
