@@ -16,4 +16,4 @@ jobs:
         with:
           USERNAME: r-khaled
           BRANCH_NAME: main
-          THEME: github_dark
+          THEME: tokyonight
