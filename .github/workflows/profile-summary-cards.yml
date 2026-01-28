@@ -14,10 +14,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check token exists
+        run: |
+          if [ -z "${{ secrets.GH_TOKEN }}" ]; then
+            echo "GH_TOKEN is EMPTY or not visible"
+            exit 1
+          else
+            echo "GH_TOKEN is present"
+          fi
+
       - name: Generate summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
-          USERNAME: r-khaled
+          USERNAME: USERNAME
           BRANCH_NAME: main
           THEME: github_dark
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
