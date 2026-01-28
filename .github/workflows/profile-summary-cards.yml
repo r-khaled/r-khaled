@@ -42,7 +42,7 @@ jobs:
       - name: Generate summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
         with:
-          USERNAME: YOUR_USERNAME_HERE
+          USERNAME: r-khaled
           BRANCH_NAME: main
           THEME: github_dark
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
