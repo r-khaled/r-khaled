@@ -2,11 +2,14 @@ name: GitHub Profile Summary Cards
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # daily
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  summary-cards:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,4 +19,5 @@ jobs:
         with:
           USERNAME: r-khaled
           BRANCH_NAME: main
-          THEME: tokyonight
+          THEME: github_dark
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
